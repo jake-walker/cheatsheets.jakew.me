@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Jake\'s Cheat Sheets',
-  tagline: 'Programming and Cyber Security Cheat Sheets',
+  tagline: 'Cyber Security and Programming Cheat Sheets and Snippets',
   url: 'https://cheatsheets.jakew.me',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -17,7 +17,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: '/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -32,19 +32,19 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
+        // {
+        //   title: 'Docs',
+        //   items: [
+        //     {
+        //       label: 'Style Guide',
+        //       to: '/',
+        //     },
+        //     {
+        //       label: 'Second Doc',
+        //       to: 'docs/doc2/',
+        //     },
+        //   ],
+        // },
         {
           title: 'More',
           items: [
@@ -72,9 +72,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/jake-walker/cheatsheets.jakew.me/edit/master/website/',
+          editUrl: 'https://github.com/jake-walker/cheatsheets.jakew.me/edit/master/',
+          routeBasePath: '/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

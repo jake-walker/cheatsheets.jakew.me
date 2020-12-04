@@ -7,7 +7,7 @@ module.exports = {
     {
       type: "category",
       label: "Tools",
-      items: ["tools/nmap", "tools/reverse-shell"],
+      items: ["tools/nmap", "tools/reverse-shell", "tools/wfuzz", "tools/gobuster"],
       collapsed: false
     }
   ]
